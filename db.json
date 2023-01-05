@@ -3,8 +3,10 @@
   "contact" : {
     "name" : "Ad Music",
     "description" : "Production et evenementiel depuis 1993 en France et DOM TOM",
-    "tel" : "06 12 23 33 33",
-    "address" : "20 rue de la music",
+    "telmob" : "06.38.50.23.83",
+    "telfix": "01.30.72.15.14",
+    "email":" intladmusic@gmail.com ",
+    "address" : "Saint-Denis.",
     "tiktok" : {
       "link" : "https://www.tiktok.com/@ad_music_intl?lang=fr",
       "username" : "ad_music_intl"
@@ -23,7 +25,7 @@
       "id": 1,
       "title":"HAITIAN COMPAS FESTIVAL",
       "location":"BAYFRONT PARK MIAMI",
-      "date" : "20/05/2023",
+      "date" : "2023-05-20T00:00:00.000Z",
       "dateDisplay":"20.21 MAI 2023",
       "cover":"MIAMI202105.jpg",
       "admusicEvent" : false
@@ -33,7 +35,7 @@
     "id" : 2,
     "title":"GROUPE KHASH",
     "location":"OAKLAND PARK BLVD LAUDERHILL",
-    "date": "11/O2/2023",
+    "date": "2023-02-11T00:00:00.000Z",
     "dateDisplay":"11 FEVRIER 2023",
     "cover":"11022023.jpg",
     "admusicEvent" : false
@@ -42,7 +44,7 @@
   "id" : 3,
   "title":"GROUPE KHASH",
   "location":"ORLANDO",
-  "date":"12/02/2023",
+  "date":"2023-02-12T00:00:00.000Z",
   "dateDisplay":"12.02.2023",
   "cover":"12022023.jpg",
   "admusicEvent" : false
@@ -52,7 +54,7 @@
   "title":"GROUPE KHASH",
   "location":"SALLE RENAISSANCE MONTREAL",
   "date": "04/03/2023",
-  "dateDisplay":"04.03.2023",
+  "dateDisplay":"2023-03-04T00:00:00.000Z",
   "cover":"04032023.jpg",
   "admusicEvent" : false
 },
@@ -62,7 +64,7 @@
   "name" : "LA KONPA GOUYAD PARTY LIVE",
   "description":"ATTENTION AD MUSIC ET KOMPARIBEAN MUSIC présentent LA KONPA GOUYAD PARTY LIVE",
   "location" : "ESPACE CHEVREUL DE NANTERRE",
-  "date": "28/01/2023",
+  "date": "2023-01-28T00:00:00.000Z",
   "dateDisplay" : "samedi 28 janvier 2023 de 22h",
   "cover" :"FLYER.jpg",
   "booklink" : "https://www.bizouk.com/events/details/la-konpa-gouyad-party-live/60678"
