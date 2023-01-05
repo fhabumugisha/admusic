@@ -26,7 +26,7 @@
       "title":"HAITIAN COMPAS FESTIVAL",
       "location":"BAYFRONT PARK MIAMI",
       "date" : "2023-05-20T00:00:00.000Z",
-      "dateDisplay":"20.21 MAI 2023",
+      "dateDisplay":"20/05/2023",
       "cover":"MIAMI202105.jpg",
       "admusicEvent" : false
   },
@@ -36,7 +36,7 @@
     "title":"GROUPE KHASH",
     "location":"OAKLAND PARK BLVD LAUDERHILL",
     "date": "2023-02-11T00:00:00.000Z",
-    "dateDisplay":"11 FEVRIER 2023",
+    "dateDisplay":"11/02/2023",
     "cover":"11022023.jpg",
     "admusicEvent" : false
 },
@@ -45,7 +45,7 @@
   "title":"GROUPE KHASH",
   "location":"ORLANDO",
   "date":"2023-02-12T00:00:00.000Z",
-  "dateDisplay":"12.02.2023",
+  "dateDisplay":"12/02/2023",
   "cover":"12022023.jpg",
   "admusicEvent" : false
 },
@@ -65,7 +65,7 @@
   "description":"ATTENTION AD MUSIC ET KOMPARIBEAN MUSIC présentent LA KONPA GOUYAD PARTY LIVE",
   "location" : "ESPACE CHEVREUL DE NANTERRE",
   "date": "2023-01-28T00:00:00.000Z",
-  "dateDisplay" : "samedi 28 janvier 2023 de 22h",
+  "dateDisplay" : "28/012023",
   "cover" :"FLYER.jpg",
   "booklink" : "https://www.bizouk.com/events/details/la-konpa-gouyad-party-live/60678"
 }
