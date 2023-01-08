@@ -18,6 +18,10 @@
     "facebook" : {
       "link": "https://www.facebook.com/profile.php?id=100083006401255",
       "username" : "Ad Musi (Team AD)"
+    },
+    "twitter" : {
+      "link":"https://twitter.com/admusic__",
+      "username":"AD MUSIC"
     }
   },
   "events": [
@@ -65,9 +69,18 @@
   "description":"ATTENTION AD MUSIC ET KOMPARIBEAN MUSIC présentent LA KONPA GOUYAD PARTY LIVE",
   "location" : "ESPACE CHEVREUL DE NANTERRE",
   "date": "2023-01-28T00:00:00.000Z",
-  "dateDisplay" : "28/012023",
+  "dateDisplay" : "28/01/2023",
   "cover" :"FLYER.jpg",
   "booklink" : "https://www.bizouk.com/events/details/la-konpa-gouyad-party-live/60678"
+},
+    {
+  "admusicEvent" : false,
+  "id" : 6,
+  "name" : "LA KONPA GOUYAD PARTY LIVE",
+  "location" : "North miami",
+  "date": "2023-02-26T00:00:00.000Z",
+  "dateDisplay" : "26 février 2023",
+  "cover" :"26022023.jpg",
 }
 ]
 
