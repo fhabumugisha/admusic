@@ -65,7 +65,7 @@
 {
   "admusicEvent" : true,
   "id" : 5,
-  "name" : "LA KONPA GOUYAD PARTY LIVE",
+  "title" : "LA KONPA GOUYAD PARTY LIVE",
   "description":"ATTENTION AD MUSIC ET KOMPARIBEAN MUSIC présentent LA KONPA GOUYAD PARTY LIVE",
   "location" : "ESPACE CHEVREUL DE NANTERRE",
   "date": "2023-01-28T00:00:00.000Z",
@@ -76,7 +76,7 @@
  {
   "admusicEvent" : false,
   "id" : 6,
-  "name" : "MADAME GOUGOUSSE HAITI CUP",
+  "title" : "MADAME GOUGOUSSE HAITI CUP",
   "location" : "North miami",
   "date": "2023-02-26T00:00:00.000Z",
   "dateDisplay" : "26 février 2023",
