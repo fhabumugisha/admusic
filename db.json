@@ -31,7 +31,7 @@
       "location":"BAYFRONT PARK MIAMI",
       "date" : "2023-05-20T00:00:00.000Z",
       "dateDisplay":"20/05/2023",
-      "cover":"MIAMI202105.jpg",
+      "cover":"https://fhabumugisha.github.io/admusic/MIAMI202105.jpg",
       "admusicEvent" : false
   },
 
@@ -41,7 +41,7 @@
     "location":"OAKLAND PARK BLVD LAUDERHILL",
     "date": "2023-02-11T00:00:00.000Z",
     "dateDisplay":"11/02/2023",
-    "cover":"11022023.jpg",
+    "cover":"https://fhabumugisha.github.io/admusic/11022023.jpg",
     "admusicEvent" : false
 },
 {
@@ -50,7 +50,7 @@
   "location":"ORLANDO",
   "date":"2023-02-12T00:00:00.000Z",
   "dateDisplay":"12/02/2023",
-  "cover":"12022023.jpg",
+  "cover":"https://fhabumugisha.github.io/admusic/12022023.jpg",
   "admusicEvent" : false
 },
 {
@@ -59,7 +59,7 @@
   "location":"SALLE RENAISSANCE MONTREAL",
   "date": "2023-03-04T00:00:00.000Z",
   "dateDisplay":"04/03/2023",
-  "cover":"04032023.jpg",
+  "cover":"https://fhabumugisha.github.io/admusic/04032023.jpg",
   "admusicEvent" : false
 },
 {
@@ -70,7 +70,7 @@
   "location" : "ESPACE CHEVREUL DE NANTERRE",
   "date": "2023-01-28T00:00:00.000Z",
   "dateDisplay" : "28/01/2023",
-  "cover" :"FLYER.jpg",
+  "cover" :"https://fhabumugisha.github.io/admusic/FLYER.jpg",
   "booklink" : "https://www.bizouk.com/events/details/la-konpa-gouyad-party-live/60678"
 },
  {
@@ -80,7 +80,7 @@
   "location" : "North miami",
   "date": "2023-02-26T00:00:00.000Z",
   "dateDisplay" : "26 février 2023",
-  "cover" :"26022023.jpg"
+  "cover" :"https://fhabumugisha.github.io/admusic/26022023.jpg"
 }
 ]
 
