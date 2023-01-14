@@ -6,7 +6,7 @@
     "telmob" : "06.38.50.23.83",
     "telfix": "01.30.72.15.14",
     "email":" intladmusic@gmail.com ",
-    "address" : "Saint-Denis.",
+    "address" : "Saint-Denis",
     "tiktok" : {
       "link" : "https://www.tiktok.com/@ad_music_intl?lang=fr",
       "username" : "ad_music_intl"
@@ -77,9 +77,9 @@
   "admusicEvent" : false,
   "id" : 6,
   "title" : "MADAME GOUGOUSSE HAITI CUP",
-  "location" : "North miami",
+  "location" : "NORTH MIAMI",
   "date": "2023-02-26T00:00:00.000Z",
-  "dateDisplay" : "26 février 2023",
+  "dateDisplay" : "26/02/2023",
   "cover" :"https://fhabumugisha.github.io/admusic/26022023.jpg"
 }
 ]
