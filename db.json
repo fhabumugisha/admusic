@@ -31,7 +31,7 @@
       "location":"BAYFRONT PARK MIAMI",
       "date" : "2023-05-20T00:00:00.000Z",
       "dateDisplay":"20/05/2023",
-      "heureDebut":"2023-05-20T23:00:00.000Z",
+      "heureDebut":"2023-05-20T20:00:00.000Z",
       "heureFin":"2023-05-21T05:00:00.000Z",
       "cover":"https://fhabumugisha.github.io/admusic/MIAMI202105.jpg",
       "admusicEvent" : false
@@ -92,6 +92,8 @@
   "location" : "ESPACE CHEVREUL DE NANTERRE",
   "date": "2023-03-25T23:59:59.000Z",
   "dateDisplay" : "25/03/2023",
+  "heureDebut":"2023-03-25T20:00:00.000Z",
+  "heureFin":"2023-03-26T05:00:00.000Z",
   "cover" :"https://fhabumugisha.github.io/admusic/25032023.jpg",
   "booklink" : "https://www.bizouk.com/events/details/election-miss-prestige-haiti-france/62576"
 },
