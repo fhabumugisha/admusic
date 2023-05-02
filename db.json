@@ -109,6 +109,20 @@
   "heureFin":"2023-04-29T05:00:00.000Z",
   "cover" :"https://fhabumugisha.github.io/admusic/28042023.jpg",
   "booklink" : "https://www.bizouk.com/events/details/mjtx-birthday-trilogie-1-5lan-t-ansyto-e/63147"
+},
+    ,
+    {
+  "admusicEvent" : true,
+  "id" : 9,
+  "title" : "LA FOLLE NUIT DU KOMPA PARIS",
+  "description":"Une fois de plus  STAFFF LÒT JAN PROD met à l'honneur le Kompa Paris.Nous vous invitons le vendredi 12 mai dès 21 heures 30  à la salle palace de Villiers pour la 1ère édition de la FOLLE NUIT DU KOMPA PARIS avec les groupes FOREVER MUSIC, STEEL GROOVE, KARMA ET BLACKOUT ",
+  "location" : "PALACE DE VILLIERS, 12 AV ENTREPRENEUR, 95400 VILLIERS-LE-BEL",
+  "date": "2023-05-12T23:59:59.000Z",
+  "dateDisplay" : "12/05/2023",
+  "heureDebut":"2023-05-12T21:30:00.000Z",
+  "heureFin":"2023-05-13T05:00:00.000Z",
+  "cover" :"https://fhabumugisha.github.io/admusic/12052023.jpg",
+  "booklink" : "https://www.bizouk.com/events/details/la-folle-nuit-du-kompa-paris/64668"
 }
 ]
 
