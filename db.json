@@ -128,15 +128,8 @@
   "admusicEvent" : true,
   "id" : 10,
   "title" : "KHASH EN LIVE A PARIS",
-  "description":"C'est le groupe KHASH en provenance de NEW YORK qui viendra clotûrer la saison  konpa live à PARIS.
-Rendez vous le samedi 30 décembre 2023 à la salle le PALMIER D'OR:
-5 rue SAINT CLAUDE 77340 PONTAULT COMBAULT
-Animation DJ FLO
-Restauration locale sur place
-Pour ce before du réveillon KOMPARIBEAN MUSIC et AD MUSIC vous attendent avec une tenue et un esprit correct.
-Prenez vite vos billets et à très bientôt les amis. ",
-  "location" : "LE PALMIER D'OR.
-5 RUE SAINT CLAUDE, 77240 PONTAULT COMBAULT",
+  "description":"C'est le groupe KHASH en provenance de NEW YORK qui viendra clotûrer la saison  konpa live à PARIS. Rendez vous le samedi 30 décembre 2023 à la salle le PALMIER D'OR: 5 rue SAINT CLAUDE 77340 PONTAULT COMBAULT. Animation DJ FLO, Restauration locale sur place. Pour ce before du réveillon KOMPARIBEAN MUSIC et AD MUSIC vous attendent avec une tenue et un esprit correct.Prenez vite vos billets et à très bientôt les amis. ",
+  "location" : "LE PALMIER D'OR. 5 RUE SAINT CLAUDE, 77240 PONTAULT COMBAULT",
   "date": "2023-12-30T23:59:59.000Z",
   "dateDisplay" : "Samedi 30 Décembre 2023 à 22:00",
   "heureDebut":"2023-05-12T22:00:00.000Z",
