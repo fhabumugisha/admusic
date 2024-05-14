@@ -163,6 +163,19 @@
   "heureFin":"2024-04-14T05:00:00.000Z",
   "cover" :"https://fhabumugisha.github.io/admusic/20240413.jpg",
   "booklink" : "https://linktr.ee/intladmusic"
+    },
+     {
+  "admusicEvent" : true,
+  "id" : 13,
+  "title" : "DISIP DE GAZZMAN COULEUR EN LIVE",
+  "description":"AD MUSIC vous présente DISIP DE GAZZMAN COULEUR EN LIVE. LA RENTREE EN KONPA. Samedi 14 Septembre 2024 à 22:00.",
+  "location" : "ESPACE CHEVREUL . 97 AVENUE DE LA LIBERTE, 92000 NANTERRE",
+  "date": "2024-09-13T23:59:59.000Z",
+  "dateDisplay" : "Samedi 14 SEPTEMBRE 2024 à 22:00",
+  "heureDebut":"2024-09-14T22:00:00.000Z",
+  "heureFin":"2024-09-15T05:00:00.000Z",
+  "cover" :"https://fhabumugisha.github.io/admusic/14092024.jpeg",
+  "booklink" : "https://linktr.ee/intladmusic"
     }
 ]
 
