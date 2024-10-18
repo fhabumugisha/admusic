@@ -176,7 +176,20 @@
   "heureFin":"2024-09-15T05:00:00.000Z",
   "cover" :"https://fhabumugisha.github.io/admusic/14092024.jpeg",
   "booklink" : "https://linktr.ee/intladmusic"
-    }
+    },
+    {
+      "admusicEvent" : true,
+      "id" : 14,
+      "title" : "Zenglen en Live - Soirée Gala",
+      "description":"AD MUSIC vous présente le groupe ZENGLEN en LIVE pour une SOIREE DE GALA. Music by LE PHENOMENAL DJ FLO jusqu'à 23h30. Début du CONCERT LIVE à 23h45  jusqu'au petit matin.",
+      "location" : "ESPACE CHEVREUL . 97 AVENUE DE LA LIBERTE, 92000 NANTERRE",
+      "date": "2025-01-31T23:59:59.000Z",
+      "dateDisplay" : "Samedi 01 FEVRIER 2025 à 22:00",
+      "heureDebut":"2025-02-01T22:00:00.000Z",
+      "heureFin":"2025-02-02T05:00:00.000Z",
+      "cover" :"https://fhabumugisha.github.io/admusic/01022025.jpeg",
+      "booklink" : "https://linktr.ee/intladmusic"
+        } 
 ]
 
 }
