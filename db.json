@@ -189,6 +189,19 @@
       "heureFin":"2025-02-02T05:00:00.000Z",
       "cover" :"https://fhabumugisha.github.io/admusic/01022025.jpeg",
       "booklink" : "https://linktr.ee/intladmusic"
+        } ,
+    {
+      "admusicEvent" : true,
+      "id" : 15,
+      "title" : " Sweet 16 - 5ème Anniversaire",
+      "description":"Concert/Performance live "Sweet 16 - 5ème Anniversaire" le vendredi 31 octobre à Fleury Mérogis avec T Ansyto, Tjo Zenny, Carlo Vieux (Carimi), Fabiola Shyne & Alex (Khash), présenté par Komparibean Music",
+      "location" : "18 Rue Édouard Aubert, 91700 Fleury Mérogis",
+      "date": "2025-10-30T23:59:59.000Z",
+      "dateDisplay" : "Vendredi 31 octobre",
+      "heureDebut":"2025-10-31T22:00:00.000Z",
+      "heureFin":"2025-11-01T05:00:00.000Z",
+      "cover" :"https://fhabumugisha.github.io/admusic/20251031.jpeg",
+      "booklink" : "https://linktr.ee/intladmusic"
         } 
 ]
 
