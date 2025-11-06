@@ -202,6 +202,19 @@
       "heureFin":"2025-11-01T05:00:00.000Z",
       "cover" :"https://fhabumugisha.github.io/admusic/31102025.jpeg",
       "booklink" : "https://linktr.ee/intladmusic"
+      } ,
+    {
+      "admusicEvent" : true,
+      "id" : 16,
+      "title" : "Mister Prestige Haïti de France",
+      "description":"Soirée de gala organisée par l’Association M&M PHF, Dress code : Rouge et Noir Tenue correcte exigée. ARTISTES / INVITÉS : David B, Wanto, DJ Soso",
+      "location" : "42 Chemin des Fourches, 93380 Pierrefitte-sur-Seine",
+      "date": "2025-12-06T23:59:59.000Z",
+      "dateDisplay" : "Samedi 06 décembre 2025",
+      "heureDebut":"2025-12-06T21:00:00.000Z",
+      "heureFin":"2025-12-07T05:00:00.000Z",
+      "cover" :"https://fhabumugisha.github.io/admusic/06122025.jpeg",
+      "booklink" : "https://linktr.ee/intladmusic"
       } 
 ]
 
