@@ -215,7 +215,20 @@
       "heureFin":"2025-12-07T05:00:00.000Z",
       "cover" :"https://fhabumugisha.github.io/admusic/06122025.jpeg",
       "booklink" : "https://linktr.ee/intladmusic"
-      } 
+      } ,
+    {
+      "admusicEvent": true,
+      "id": 17,
+      "title": "MISS PRESTIGE HAITI FRANCE",
+      "description": "Soirée de gala présentée par l'Association M&MPHF. Artistes : Antonny Drew, Domec Brusly. Animation : DJ Holore, DJ Sté. Pré-vente 30€, Sur place 40€. Info VIP : 06 03 36 22 66. Tenue correcte exigée, dress code vert et blanc.",
+      "location": "ESPACE CHEVREUL, 97 AVENUE DE LA LIBERTE, 92000 NANTERRE",
+      "date": "2026-03-21T23:59:59.000Z",
+      "dateDisplay": "Samedi 21 mars 2026 à 21:00",
+      "heureDebut": "2026-03-21T21:00:00.000Z",
+      "heureFin": "2026-03-22T05:00:00.000Z",
+      "cover": "https://fhabumugisha.github.io/admusic/21032026.jpeg",
+      "booklink": "https://linktr.ee/intladmusic"
+    }
 ]
 
 }
