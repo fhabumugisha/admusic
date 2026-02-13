@@ -52,7 +52,8 @@ AD Music uses a single `db.json` file served via My JSON Server as a REST API. E
    - Ouvrir un nouvel onglet dans le navigateur Playwright (browser_tabs action="new")
    - Naviguer vers `https://web.whatsapp.com`
    - Attendre que WhatsApp Web soit charge :
-     - Si c'est la premiere fois : un QR code s'affiche. Demander a l'utilisateur de le scanner avec son telephone, puis attendre que le chat list apparaisse.
+     - Si c'est la premiere fois : un QR code s'affiche. Prendre un screenshot avec `browser_take_screenshot` pour afficher le QR code a l'utilisateur dans le terminal. L'utilisateur scanne le QR code depuis l'image, puis attendre que le chat list apparaisse.
+     - Si la session a expire : reprendre le flow QR code (screenshot + scan).
      - Si la session est persistee : le chat list apparait directement.
    - Chercher le contact : cliquer sur la barre de recherche, taper le nom du contact (variable `WHATSAPP_CONTACT` ou demander a l'utilisateur)
    - Cliquer sur le contact dans les resultats
@@ -176,19 +177,24 @@ Shall I add this event to db.json?
 
 <whatsapp_config>
 
-**Premiere utilisation :**
-1. Le Playwright MCP ouvre WhatsApp Web en mode headed (navigateur visible)
-2. Un QR code s'affiche — scanner avec l'app WhatsApp sur le telephone
-3. La session est sauvegardee dans le profil persistant du MCP
-4. Les utilisations suivantes ne demandent plus de QR code
+**Mode headless avec session persistante :**
+- Le Playwright MCP tourne en headless avec un profil persistant dans `~/.playwright-profile`
+- La session WhatsApp Web est sauvegardee entre les invocations
+
+**Premiere utilisation (scan QR code) :**
+1. WhatsApp Web s'ouvre en headless — un QR code s'affiche
+2. Prendre un screenshot du QR code avec `browser_take_screenshot` et l'afficher a l'utilisateur
+3. L'utilisateur scanne le QR code depuis l'image affichee dans le terminal
+4. Attendre que le chat list apparaisse
+5. Les utilisations suivantes ne demandent plus de QR code
 
 **Contact destinataire :**
 - Demander a l'utilisateur le nom du contact a chaque envoi
 - Ou utiliser la variable d'environnement `WHATSAPP_CONTACT` si definie
 
 **Comportement en cas d'echec :**
-- Si WhatsApp Web ne charge pas ou la session a expire : demander a l'utilisateur de re-scanner le QR code
-- Si l'envoi echoue : informer l'utilisateur, le screenshot reste disponible dans `deployed/DDMMYYYY.png`
+- Si la session a expire : reprendre le flow QR code (screenshot + scan)
+- Si l'envoi echoue : informer l'utilisateur, le screenshot reste dans `deployed/DDMMYYYY.png`
 - L'echec de l'envoi WhatsApp ne doit PAS bloquer la completion du skill
 
 </whatsapp_config>
