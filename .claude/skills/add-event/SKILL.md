@@ -47,7 +47,22 @@ AD Music uses a single `db.json` file served via My JSON Server as a REST API. E
      2. Wait for the dynamic content to load (the MCP handles waiting natively, no hardcoded timeout needed)
      3. Take a screenshot and save it to the `deployed/` folder at the repo root using filename `DDMMYYYY.png` (event date). Example: `deployed/06122025.png`
    - Display the screenshot to the user for visual confirmation that the new event appears correctly
-   - Close the browser session when done
+   - Keep the browser open for the WhatsApp sending step
+12. **Envoi WhatsApp du screenshot** — Apres la verification mobile :
+   - Ouvrir un nouvel onglet dans le navigateur Playwright (browser_tabs action="new")
+   - Naviguer vers `https://web.whatsapp.com`
+   - Attendre que WhatsApp Web soit charge :
+     - Si c'est la premiere fois : un QR code s'affiche. Demander a l'utilisateur de le scanner avec son telephone, puis attendre que le chat list apparaisse.
+     - Si la session est persistee : le chat list apparait directement.
+   - Chercher le contact : cliquer sur la barre de recherche, taper le nom du contact (variable `WHATSAPP_CONTACT` ou demander a l'utilisateur)
+   - Cliquer sur le contact dans les resultats
+   - Cliquer sur le bouton d'attachement (icone trombone/clip)
+   - Utiliser `browser_file_upload` pour uploader le fichier `deployed/DDMMYYYY.png`
+   - Ajouter une legende (caption) avec le titre de l'evenement : "Deploye : TITRE DE L'EVENEMENT"
+   - Cliquer sur le bouton d'envoi
+   - Attendre la confirmation d'envoi (coche simple ou double)
+   - Informer l'utilisateur que le screenshot a ete envoye
+   - Fermer l'onglet WhatsApp et le navigateur
 
 </workflow>
 </quick_start>
@@ -138,6 +153,9 @@ Shall I add this event to db.json?
 - Do NOT use markdown headings (#) in the flyer reading output
 - Do NOT forget to check the current max id in db.json before assigning
 - Do NOT use `YYYYMMDD.jpg` format for new images - always `DDMMYYYY.jpeg`
+- Do NOT close the browser after screenshot if WhatsApp sending step follows
+- Do NOT hardcode the WhatsApp contact name — ask the user or use environment variable
+- Do NOT send on WhatsApp without user confirmation first
 </anti_patterns>
 
 <success_criteria>
@@ -152,5 +170,25 @@ Shall I add this event to db.json?
 - After push, API returns the new event at `GET /events/{id}`
 - After push, cover image is accessible at its GitHub Pages URL
 - Mobile screenshot taken and shown to user confirming the new event is visible
+- Screenshot sent via WhatsApp Web to the specified contact
+- WhatsApp message includes event title as caption
 </success_criteria>
-</output>
+
+<whatsapp_config>
+
+**Premiere utilisation :**
+1. Le Playwright MCP ouvre WhatsApp Web en mode headed (navigateur visible)
+2. Un QR code s'affiche — scanner avec l'app WhatsApp sur le telephone
+3. La session est sauvegardee dans le profil persistant du MCP
+4. Les utilisations suivantes ne demandent plus de QR code
+
+**Contact destinataire :**
+- Demander a l'utilisateur le nom du contact a chaque envoi
+- Ou utiliser la variable d'environnement `WHATSAPP_CONTACT` si definie
+
+**Comportement en cas d'echec :**
+- Si WhatsApp Web ne charge pas ou la session a expire : demander a l'utilisateur de re-scanner le QR code
+- Si l'envoi echoue : informer l'utilisateur, le screenshot reste disponible dans `deployed/DDMMYYYY.png`
+- L'echec de l'envoi WhatsApp ne doit PAS bloquer la completion du skill
+
+</whatsapp_config>
